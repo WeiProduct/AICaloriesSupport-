@@ -1,0 +1,24 @@
+"/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/AI\u5361\u8DEF\u91CC/Views/Components/WeightInputView.swift":
+  swift-dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/WeightInputView.swiftdeps"
+  dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/WeightInputView.d"
+  diagnostics: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/WeightInputView.dia"
+  object: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/WeightInputView.o"
+  const-values: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/WeightInputView.swiftconstvalues"
+"/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/AI\u5361\u8DEF\u91CC/Models/UserProfile.swift":
+  dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/UserProfile.d"
+  swift-dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/UserProfile.swiftdeps"
+  diagnostics: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/UserProfile.dia"
+  object: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/UserProfile.o"
+  const-values: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/UserProfile.swiftconstvalues"
+"/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/AI\u5361\u8DEF\u91CC/Views/Screens/FoodLoggingView.swift":
+  dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/FoodLoggingView.d"
+  object: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/FoodLoggingView.o"
+  swift-dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/FoodLoggingView.swiftdeps"
+  const-values: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/FoodLoggingView.swiftconstvalues"
+  diagnostics: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/FoodLoggingView.dia"
+"/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/AI\u5361\u8DEF\u91CC/Views/Screens/DailySummaryView.swift":
+  const-values: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/DailySummaryView.swiftconstvalues"
+  object: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/DailySummaryView.o"
+  swift-dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/DailySummaryView.swiftdeps"
+  dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/DailySummaryView.d"
+  diagnostics: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/DailySummaryView.dia"

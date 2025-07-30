@@ -1,28 +1,35 @@
 {
   "images" : [
     {
-      "idiom" : "universal",
+      "filename" : "icon_76.png",
+      "idiom" : "ipad",
       "platform" : "ios",
-      "size" : "1024x1024"
+      "scale" : "1x",
+      "size" : "76x76"
     },
     {
-      "appearances" : [
-        {
-          "appearance" : "luminosity",
-          "value" : "dark"
-        }
-      ],
-      "idiom" : "universal",
+      "filename" : "icon_152.png",
+      "idiom" : "ipad",
       "platform" : "ios",
-      "size" : "1024x1024"
+      "scale" : "2x",
+      "size" : "76x76"
     },
     {
-      "appearances" : [
-        {
-          "appearance" : "luminosity",
-          "value" : "tinted"
-        }
-      ],
+      "filename" : "icon_120.png",
+      "idiom" : "iphone",
+      "platform" : "ios",
+      "scale" : "2x",
+      "size" : "60x60"
+    },
+    {
+      "filename" : "icon_180.png",
+      "idiom" : "iphone",
+      "platform" : "ios",
+      "scale" : "3x",
+      "size" : "60x60"
+    },
+    {
+      "filename" : "icon_1024.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"

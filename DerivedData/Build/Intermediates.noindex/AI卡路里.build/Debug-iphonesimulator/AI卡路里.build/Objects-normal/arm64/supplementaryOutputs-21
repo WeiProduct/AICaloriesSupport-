@@ -1,0 +1,18 @@
+"/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/AI\u5361\u8DEF\u91CC/Views/Screens/SettingsView.swift":
+  dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/arm64/SettingsView.d"
+  diagnostics: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/arm64/SettingsView.dia"
+  const-values: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/arm64/SettingsView.swiftconstvalues"
+  object: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/arm64/SettingsView.o"
+  swift-dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/arm64/SettingsView.swiftdeps"
+"/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/AI\u5361\u8DEF\u91CC/Views/Components/DayHistoryRow.swift":
+  const-values: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/arm64/DayHistoryRow.swiftconstvalues"
+  dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/arm64/DayHistoryRow.d"
+  swift-dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/arm64/DayHistoryRow.swiftdeps"
+  object: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/arm64/DayHistoryRow.o"
+  diagnostics: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/arm64/DayHistoryRow.dia"
+"/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/AI\u5361\u8DEF\u91CC/ViewModels/DailySummaryViewModel.swift":
+  diagnostics: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/arm64/DailySummaryViewModel.dia"
+  object: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/arm64/DailySummaryViewModel.o"
+  swift-dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/arm64/DailySummaryViewModel.swiftdeps"
+  dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/arm64/DailySummaryViewModel.d"
+  const-values: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/arm64/DailySummaryViewModel.swiftconstvalues"

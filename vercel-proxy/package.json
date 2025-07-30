@@ -1,0 +1,12 @@
+{
+  "name": "ai-calorie-proxy",
+  "version": "1.0.0",
+  "description": "Proxy server for AI Calorie app to protect API keys",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["proxy", "api", "openai"],
+  "author": "",
+  "license": "ISC"
+}

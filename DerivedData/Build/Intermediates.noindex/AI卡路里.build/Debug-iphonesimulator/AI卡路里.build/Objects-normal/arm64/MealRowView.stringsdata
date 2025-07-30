@@ -1,0 +1,40 @@
+{
+  "source": "/Users/weifu/Desktop/AI卡路里/AI卡路里/Views/Components/MealRowView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "%lld %@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 13
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld 千卡",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 21
+        }
+      },
+      {
+        "comment": "",
+        "key": "删除",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 34
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%@",
+        "location": {
+          "startingColumn": 14,
+          "startingLine": 46
+        }
+      }
+    ]
+  },
+  "version": 1
+}

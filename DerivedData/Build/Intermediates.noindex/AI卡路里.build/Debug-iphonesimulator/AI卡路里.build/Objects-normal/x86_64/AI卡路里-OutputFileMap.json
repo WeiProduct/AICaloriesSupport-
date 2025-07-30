@@ -1,0 +1,268 @@
+{
+  "" : {
+    "diagnostics" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/AI卡路里-master.dia",
+    "emit-module-dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/AI卡路里-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/AI卡路里-master-emit-module.dia",
+    "swift-dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/AI卡路里-master.swiftdeps"
+  },
+  "/Users/weifu/Desktop/AI卡路里/AI卡路里/AI___App.swift" : {
+    "const-values" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/AI___App.swiftconstvalues",
+    "dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/AI___App.d",
+    "diagnostics" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/AI___App.dia",
+    "index-unit-output-path" : "/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/AI___App.o",
+    "llvm-bc" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/AI___App.bc",
+    "object" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/AI___App.o",
+    "swift-dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/AI___App.swiftdeps",
+    "swiftmodule" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/AI___App~partial.swiftmodule"
+  },
+  "/Users/weifu/Desktop/AI卡路里/AI卡路里/Models/DailyLog.swift" : {
+    "const-values" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DailyLog.swiftconstvalues",
+    "dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DailyLog.d",
+    "diagnostics" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DailyLog.dia",
+    "index-unit-output-path" : "/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DailyLog.o",
+    "llvm-bc" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DailyLog.bc",
+    "object" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DailyLog.o",
+    "swift-dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DailyLog.swiftdeps",
+    "swiftmodule" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DailyLog~partial.swiftmodule"
+  },
+  "/Users/weifu/Desktop/AI卡路里/AI卡路里/Models/Food.swift" : {
+    "const-values" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/Food.swiftconstvalues",
+    "dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/Food.d",
+    "diagnostics" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/Food.dia",
+    "index-unit-output-path" : "/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/Food.o",
+    "llvm-bc" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/Food.bc",
+    "object" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/Food.o",
+    "swift-dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/Food.swiftdeps",
+    "swiftmodule" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/Food~partial.swiftmodule"
+  },
+  "/Users/weifu/Desktop/AI卡路里/AI卡路里/Models/Meal.swift" : {
+    "const-values" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/Meal.swiftconstvalues",
+    "dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/Meal.d",
+    "diagnostics" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/Meal.dia",
+    "index-unit-output-path" : "/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/Meal.o",
+    "llvm-bc" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/Meal.bc",
+    "object" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/Meal.o",
+    "swift-dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/Meal.swiftdeps",
+    "swiftmodule" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/Meal~partial.swiftmodule"
+  },
+  "/Users/weifu/Desktop/AI卡路里/AI卡路里/Models/UserProfile.swift" : {
+    "const-values" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/UserProfile.swiftconstvalues",
+    "dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/UserProfile.d",
+    "diagnostics" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/UserProfile.dia",
+    "index-unit-output-path" : "/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/UserProfile.o",
+    "llvm-bc" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/UserProfile.bc",
+    "object" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/UserProfile.o",
+    "swift-dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/UserProfile.swiftdeps",
+    "swiftmodule" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/UserProfile~partial.swiftmodule"
+  },
+  "/Users/weifu/Desktop/AI卡路里/AI卡路里/Utils/SampleData.swift" : {
+    "const-values" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/SampleData.swiftconstvalues",
+    "dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/SampleData.d",
+    "diagnostics" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/SampleData.dia",
+    "index-unit-output-path" : "/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/SampleData.o",
+    "llvm-bc" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/SampleData.bc",
+    "object" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/SampleData.o",
+    "swift-dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/SampleData.swiftdeps",
+    "swiftmodule" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/SampleData~partial.swiftmodule"
+  },
+  "/Users/weifu/Desktop/AI卡路里/AI卡路里/ViewModels/DailySummaryViewModel.swift" : {
+    "const-values" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DailySummaryViewModel.swiftconstvalues",
+    "dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DailySummaryViewModel.d",
+    "diagnostics" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DailySummaryViewModel.dia",
+    "index-unit-output-path" : "/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DailySummaryViewModel.o",
+    "llvm-bc" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DailySummaryViewModel.bc",
+    "object" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DailySummaryViewModel.o",
+    "swift-dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DailySummaryViewModel.swiftdeps",
+    "swiftmodule" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DailySummaryViewModel~partial.swiftmodule"
+  },
+  "/Users/weifu/Desktop/AI卡路里/AI卡路里/ViewModels/FoodLoggingViewModel.swift" : {
+    "const-values" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/FoodLoggingViewModel.swiftconstvalues",
+    "dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/FoodLoggingViewModel.d",
+    "diagnostics" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/FoodLoggingViewModel.dia",
+    "index-unit-output-path" : "/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/FoodLoggingViewModel.o",
+    "llvm-bc" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/FoodLoggingViewModel.bc",
+    "object" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/FoodLoggingViewModel.o",
+    "swift-dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/FoodLoggingViewModel.swiftdeps",
+    "swiftmodule" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/FoodLoggingViewModel~partial.swiftmodule"
+  },
+  "/Users/weifu/Desktop/AI卡路里/AI卡路里/Views/Components/CameraView.swift" : {
+    "const-values" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/CameraView.swiftconstvalues",
+    "dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/CameraView.d",
+    "diagnostics" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/CameraView.dia",
+    "index-unit-output-path" : "/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/CameraView.o",
+    "llvm-bc" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/CameraView.bc",
+    "object" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/CameraView.o",
+    "swift-dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/CameraView.swiftdeps",
+    "swiftmodule" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/CameraView~partial.swiftmodule"
+  },
+  "/Users/weifu/Desktop/AI卡路里/AI卡路里/Views/Components/CircularProgressView.swift" : {
+    "const-values" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/CircularProgressView.swiftconstvalues",
+    "dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/CircularProgressView.d",
+    "diagnostics" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/CircularProgressView.dia",
+    "index-unit-output-path" : "/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/CircularProgressView.o",
+    "llvm-bc" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/CircularProgressView.bc",
+    "object" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/CircularProgressView.o",
+    "swift-dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/CircularProgressView.swiftdeps",
+    "swiftmodule" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/CircularProgressView~partial.swiftmodule"
+  },
+  "/Users/weifu/Desktop/AI卡路里/AI卡路里/Views/Components/DayHistoryRow.swift" : {
+    "const-values" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DayHistoryRow.swiftconstvalues",
+    "dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DayHistoryRow.d",
+    "diagnostics" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DayHistoryRow.dia",
+    "index-unit-output-path" : "/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DayHistoryRow.o",
+    "llvm-bc" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DayHistoryRow.bc",
+    "object" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DayHistoryRow.o",
+    "swift-dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DayHistoryRow.swiftdeps",
+    "swiftmodule" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DayHistoryRow~partial.swiftmodule"
+  },
+  "/Users/weifu/Desktop/AI卡路里/AI卡路里/Views/Components/FoodRowView.swift" : {
+    "const-values" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/FoodRowView.swiftconstvalues",
+    "dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/FoodRowView.d",
+    "diagnostics" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/FoodRowView.dia",
+    "index-unit-output-path" : "/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/FoodRowView.o",
+    "llvm-bc" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/FoodRowView.bc",
+    "object" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/FoodRowView.o",
+    "swift-dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/FoodRowView.swiftdeps",
+    "swiftmodule" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/FoodRowView~partial.swiftmodule"
+  },
+  "/Users/weifu/Desktop/AI卡路里/AI卡路里/Views/Components/GoalSettingsView.swift" : {
+    "const-values" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/GoalSettingsView.swiftconstvalues",
+    "dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/GoalSettingsView.d",
+    "diagnostics" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/GoalSettingsView.dia",
+    "index-unit-output-path" : "/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/GoalSettingsView.o",
+    "llvm-bc" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/GoalSettingsView.bc",
+    "object" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/GoalSettingsView.o",
+    "swift-dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/GoalSettingsView.swiftdeps",
+    "swiftmodule" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/GoalSettingsView~partial.swiftmodule"
+  },
+  "/Users/weifu/Desktop/AI卡路里/AI卡路里/Views/Components/ManualFoodEntryView.swift" : {
+    "const-values" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/ManualFoodEntryView.swiftconstvalues",
+    "dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/ManualFoodEntryView.d",
+    "diagnostics" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/ManualFoodEntryView.dia",
+    "index-unit-output-path" : "/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/ManualFoodEntryView.o",
+    "llvm-bc" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/ManualFoodEntryView.bc",
+    "object" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/ManualFoodEntryView.o",
+    "swift-dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/ManualFoodEntryView.swiftdeps",
+    "swiftmodule" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/ManualFoodEntryView~partial.swiftmodule"
+  },
+  "/Users/weifu/Desktop/AI卡路里/AI卡路里/Views/Components/MealRowView.swift" : {
+    "const-values" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/MealRowView.swiftconstvalues",
+    "dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/MealRowView.d",
+    "diagnostics" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/MealRowView.dia",
+    "index-unit-output-path" : "/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/MealRowView.o",
+    "llvm-bc" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/MealRowView.bc",
+    "object" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/MealRowView.o",
+    "swift-dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/MealRowView.swiftdeps",
+    "swiftmodule" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/MealRowView~partial.swiftmodule"
+  },
+  "/Users/weifu/Desktop/AI卡路里/AI卡路里/Views/Components/NutritionProgressRow.swift" : {
+    "const-values" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/NutritionProgressRow.swiftconstvalues",
+    "dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/NutritionProgressRow.d",
+    "diagnostics" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/NutritionProgressRow.dia",
+    "index-unit-output-path" : "/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/NutritionProgressRow.o",
+    "llvm-bc" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/NutritionProgressRow.bc",
+    "object" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/NutritionProgressRow.o",
+    "swift-dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/NutritionProgressRow.swiftdeps",
+    "swiftmodule" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/NutritionProgressRow~partial.swiftmodule"
+  },
+  "/Users/weifu/Desktop/AI卡路里/AI卡路里/Views/Components/ProfileEditView.swift" : {
+    "const-values" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/ProfileEditView.swiftconstvalues",
+    "dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/ProfileEditView.d",
+    "diagnostics" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/ProfileEditView.dia",
+    "index-unit-output-path" : "/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/ProfileEditView.o",
+    "llvm-bc" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/ProfileEditView.bc",
+    "object" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/ProfileEditView.o",
+    "swift-dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/ProfileEditView.swiftdeps",
+    "swiftmodule" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/ProfileEditView~partial.swiftmodule"
+  },
+  "/Users/weifu/Desktop/AI卡路里/AI卡路里/Views/Components/StatCard.swift" : {
+    "const-values" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/StatCard.swiftconstvalues",
+    "dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/StatCard.d",
+    "diagnostics" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/StatCard.dia",
+    "index-unit-output-path" : "/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/StatCard.o",
+    "llvm-bc" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/StatCard.bc",
+    "object" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/StatCard.o",
+    "swift-dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/StatCard.swiftdeps",
+    "swiftmodule" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/StatCard~partial.swiftmodule"
+  },
+  "/Users/weifu/Desktop/AI卡路里/AI卡路里/Views/Components/WaterIntakeView.swift" : {
+    "const-values" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/WaterIntakeView.swiftconstvalues",
+    "dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/WaterIntakeView.d",
+    "diagnostics" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/WaterIntakeView.dia",
+    "index-unit-output-path" : "/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/WaterIntakeView.o",
+    "llvm-bc" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/WaterIntakeView.bc",
+    "object" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/WaterIntakeView.o",
+    "swift-dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/WaterIntakeView.swiftdeps",
+    "swiftmodule" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/WaterIntakeView~partial.swiftmodule"
+  },
+  "/Users/weifu/Desktop/AI卡路里/AI卡路里/Views/Components/WeightInputView.swift" : {
+    "const-values" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/WeightInputView.swiftconstvalues",
+    "dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/WeightInputView.d",
+    "diagnostics" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/WeightInputView.dia",
+    "index-unit-output-path" : "/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/WeightInputView.o",
+    "llvm-bc" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/WeightInputView.bc",
+    "object" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/WeightInputView.o",
+    "swift-dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/WeightInputView.swiftdeps",
+    "swiftmodule" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/WeightInputView~partial.swiftmodule"
+  },
+  "/Users/weifu/Desktop/AI卡路里/AI卡路里/Views/MainTabView.swift" : {
+    "const-values" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/MainTabView.swiftconstvalues",
+    "dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/MainTabView.d",
+    "diagnostics" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/MainTabView.dia",
+    "index-unit-output-path" : "/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/MainTabView.o",
+    "llvm-bc" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/MainTabView.bc",
+    "object" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/MainTabView.o",
+    "swift-dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/MainTabView.swiftdeps",
+    "swiftmodule" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/MainTabView~partial.swiftmodule"
+  },
+  "/Users/weifu/Desktop/AI卡路里/AI卡路里/Views/Screens/DailySummaryView.swift" : {
+    "const-values" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DailySummaryView.swiftconstvalues",
+    "dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DailySummaryView.d",
+    "diagnostics" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DailySummaryView.dia",
+    "index-unit-output-path" : "/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DailySummaryView.o",
+    "llvm-bc" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DailySummaryView.bc",
+    "object" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DailySummaryView.o",
+    "swift-dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DailySummaryView.swiftdeps",
+    "swiftmodule" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/DailySummaryView~partial.swiftmodule"
+  },
+  "/Users/weifu/Desktop/AI卡路里/AI卡路里/Views/Screens/FoodLoggingView.swift" : {
+    "const-values" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/FoodLoggingView.swiftconstvalues",
+    "dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/FoodLoggingView.d",
+    "diagnostics" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/FoodLoggingView.dia",
+    "index-unit-output-path" : "/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/FoodLoggingView.o",
+    "llvm-bc" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/FoodLoggingView.bc",
+    "object" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/FoodLoggingView.o",
+    "swift-dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/FoodLoggingView.swiftdeps",
+    "swiftmodule" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/FoodLoggingView~partial.swiftmodule"
+  },
+  "/Users/weifu/Desktop/AI卡路里/AI卡路里/Views/Screens/HistoryView.swift" : {
+    "const-values" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/HistoryView.swiftconstvalues",
+    "dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/HistoryView.d",
+    "diagnostics" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/HistoryView.dia",
+    "index-unit-output-path" : "/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/HistoryView.o",
+    "llvm-bc" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/HistoryView.bc",
+    "object" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/HistoryView.o",
+    "swift-dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/HistoryView.swiftdeps",
+    "swiftmodule" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/HistoryView~partial.swiftmodule"
+  },
+  "/Users/weifu/Desktop/AI卡路里/AI卡路里/Views/Screens/SettingsView.swift" : {
+    "const-values" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/SettingsView.swiftconstvalues",
+    "dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/SettingsView.d",
+    "diagnostics" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/SettingsView.dia",
+    "index-unit-output-path" : "/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/SettingsView.o",
+    "llvm-bc" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/SettingsView.bc",
+    "object" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/SettingsView.o",
+    "swift-dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/SettingsView.swiftdeps",
+    "swiftmodule" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/SettingsView~partial.swiftmodule"
+  },
+  "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/weifu/Desktop/AI卡路里/DerivedData/Build/Intermediates.noindex/AI卡路里.build/Debug-iphonesimulator/AI卡路里.build/Objects-normal/x86_64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

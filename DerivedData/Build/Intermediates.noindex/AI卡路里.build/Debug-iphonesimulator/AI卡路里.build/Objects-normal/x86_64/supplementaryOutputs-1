@@ -1,0 +1,24 @@
+"/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/AI\u5361\u8DEF\u91CC/Models/DailyLog.swift":
+  dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/DailyLog.d"
+  const-values: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/DailyLog.swiftconstvalues"
+  object: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/DailyLog.o"
+  swift-dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/DailyLog.swiftdeps"
+  diagnostics: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/DailyLog.dia"
+"/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/AI\u5361\u8DEF\u91CC/Utils/SampleData.swift":
+  swift-dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/SampleData.swiftdeps"
+  dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/SampleData.d"
+  object: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/SampleData.o"
+  diagnostics: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/SampleData.dia"
+  const-values: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/SampleData.swiftconstvalues"
+"/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/AI\u5361\u8DEF\u91CC/Views/Screens/HistoryView.swift":
+  dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/HistoryView.d"
+  diagnostics: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/HistoryView.dia"
+  swift-dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/HistoryView.swiftdeps"
+  object: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/HistoryView.o"
+  const-values: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/HistoryView.swiftconstvalues"
+"/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/AI\u5361\u8DEF\u91CC/Views/Components/CameraView.swift":
+  object: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/CameraView.o"
+  diagnostics: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/CameraView.dia"
+  const-values: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/CameraView.swiftconstvalues"
+  swift-dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/CameraView.swiftdeps"
+  dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/CameraView.d"

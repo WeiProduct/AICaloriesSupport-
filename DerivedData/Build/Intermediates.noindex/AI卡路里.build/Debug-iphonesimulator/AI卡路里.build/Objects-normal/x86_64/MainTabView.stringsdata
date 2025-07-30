@@ -1,0 +1,40 @@
+{
+  "source": "/Users/weifu/Desktop/AI卡路里/AI卡路里/Views/MainTabView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "今日",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 10
+        }
+      },
+      {
+        "comment": "",
+        "key": "记录",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 16
+        }
+      },
+      {
+        "comment": "",
+        "key": "历史",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 22
+        }
+      },
+      {
+        "comment": "",
+        "key": "我的",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 28
+        }
+      }
+    ]
+  },
+  "version": 1
+}

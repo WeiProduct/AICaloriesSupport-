@@ -1,0 +1,136 @@
+{
+  "source": "/Users/weifu/Desktop/AI卡路里/AI卡路里/Views/Screens/FoodLoggingView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "记录饮食",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 31
+        }
+      },
+      {
+        "comment": "",
+        "key": "搜索食物",
+        "location": {
+          "startingColumn": 62,
+          "startingLine": 32
+        }
+      },
+      {
+        "comment": "",
+        "key": "餐次",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 64
+        }
+      },
+      {
+        "comment": "",
+        "key": "拍照识别",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 81
+        }
+      },
+      {
+        "comment": "",
+        "key": "相册选择",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 95
+        }
+      },
+      {
+        "comment": "",
+        "key": "手动输入",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 109
+        }
+      },
+      {
+        "comment": "",
+        "key": "取消",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 127
+        }
+      },
+      {
+        "comment": "",
+        "key": "每%lld%@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 135
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld 千卡",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 138
+        }
+      },
+      {
+        "comment": "",
+        "key": "数量",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 151
+        }
+      },
+      {
+        "comment": "",
+        "key": "添加到 %@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "搜索结果",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 182
+        }
+      },
+      {
+        "comment": "",
+        "key": "最近食用",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 195
+        }
+      },
+      {
+        "comment": "",
+        "key": "暂无记录",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 199
+        }
+      },
+      {
+        "comment": "",
+        "key": "常用食物",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 214
+        }
+      },
+      {
+        "comment": "",
+        "key": "暂无收藏",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 218
+        }
+      }
+    ]
+  },
+  "version": 1
+}

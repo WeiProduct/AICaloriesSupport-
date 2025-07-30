@@ -1,0 +1,24 @@
+{
+  "source": "/Users/weifu/Desktop/AI卡路里/AI卡路里/Views/Components/FoodRowView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "%lld 千卡",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 18
+        }
+      },
+      {
+        "comment": "",
+        "key": "/ %lld%@",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 21
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,128 @@
+{
+  "source": "/Users/weifu/Desktop/AI卡路里/AI卡路里/Views/Components/GoalSettingsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "目标设置",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 87
+        }
+      },
+      {
+        "comment": "",
+        "key": "每日卡路里目标",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "营养素比例",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 42
+        }
+      },
+      {
+        "comment": "",
+        "key": "预设方案",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 73
+        }
+      },
+      {
+        "comment": "",
+        "key": "目标卡路里",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 26
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 28
+        }
+      },
+      {
+        "comment": "",
+        "key": "推荐摄入",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 34
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld 千卡",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 36
+        }
+      },
+      {
+        "comment": "",
+        "key": "比例总和必须为100%",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 67
+        }
+      },
+      {
+        "comment": "",
+        "key": "均衡饮食",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 74
+        }
+      },
+      {
+        "comment": "",
+        "key": "低碳饮食",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 78
+        }
+      },
+      {
+        "comment": "",
+        "key": "高蛋白饮食",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 82
+        }
+      },
+      {
+        "comment": "",
+        "key": "取消",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 91
+        }
+      },
+      {
+        "comment": "",
+        "key": "保存",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 97
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%% · %lldg",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 159
+        }
+      }
+    ]
+  },
+  "version": 1
+}

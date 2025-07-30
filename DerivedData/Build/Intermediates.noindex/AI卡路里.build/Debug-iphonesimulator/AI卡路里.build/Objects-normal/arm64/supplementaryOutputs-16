@@ -1,0 +1,18 @@
+"/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/AI\u5361\u8DEF\u91CC/Views/MainTabView.swift":
+  swift-dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/arm64/MainTabView.swiftdeps"
+  const-values: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/arm64/MainTabView.swiftconstvalues"
+  diagnostics: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/arm64/MainTabView.dia"
+  object: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/arm64/MainTabView.o"
+  dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/arm64/MainTabView.d"
+"/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/AI\u5361\u8DEF\u91CC/ViewModels/FoodLoggingViewModel.swift":
+  swift-dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/arm64/FoodLoggingViewModel.swiftdeps"
+  diagnostics: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/arm64/FoodLoggingViewModel.dia"
+  dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/arm64/FoodLoggingViewModel.d"
+  const-values: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/arm64/FoodLoggingViewModel.swiftconstvalues"
+  object: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/arm64/FoodLoggingViewModel.o"
+"/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/AI\u5361\u8DEF\u91CC/Models/Meal.swift":
+  diagnostics: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/arm64/Meal.dia"
+  const-values: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/arm64/Meal.swiftconstvalues"
+  dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/arm64/Meal.d"
+  swift-dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/arm64/Meal.swiftdeps"
+  object: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/arm64/Meal.o"

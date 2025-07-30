@@ -1,0 +1,18 @@
+"/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/AI\u5361\u8DEF\u91CC/Views/Components/NutritionProgressRow.swift":
+  dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/NutritionProgressRow.d"
+  swift-dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/NutritionProgressRow.swiftdeps"
+  diagnostics: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/NutritionProgressRow.dia"
+  const-values: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/NutritionProgressRow.swiftconstvalues"
+  object: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/NutritionProgressRow.o"
+"/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/AI\u5361\u8DEF\u91CC/Views/Components/ManualFoodEntryView.swift":
+  object: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/ManualFoodEntryView.o"
+  const-values: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/ManualFoodEntryView.swiftconstvalues"
+  dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/ManualFoodEntryView.d"
+  swift-dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/ManualFoodEntryView.swiftdeps"
+  diagnostics: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/ManualFoodEntryView.dia"
+"/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/AI\u5361\u8DEF\u91CC/Views/Components/MealRowView.swift":
+  const-values: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/MealRowView.swiftconstvalues"
+  object: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/MealRowView.o"
+  dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/MealRowView.d"
+  swift-dependencies: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/MealRowView.swiftdeps"
+  diagnostics: "/Users/weifu/Desktop/AI\u5361\u8DEF\u91CC/DerivedData/Build/Intermediates.noindex/AI\u5361\u8DEF\u91CC.build/Debug-iphonesimulator/AI\u5361\u8DEF\u91CC.build/Objects-normal/x86_64/MealRowView.dia"

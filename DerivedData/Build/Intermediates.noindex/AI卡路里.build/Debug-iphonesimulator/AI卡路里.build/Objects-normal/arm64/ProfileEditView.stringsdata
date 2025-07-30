@@ -1,0 +1,200 @@
+{
+  "source": "/Users/weifu/Desktop/AI卡路里/AI卡路里/Views/Components/ProfileEditView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "创建档案",
+        "location": {
+          "startingColumn": 47,
+          "startingLine": 97
+        }
+      },
+      {
+        "comment": "",
+        "key": "编辑档案",
+        "location": {
+          "startingColumn": 64,
+          "startingLine": 97
+        }
+      },
+      {
+        "comment": "",
+        "key": "基本信息",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 19
+        }
+      },
+      {
+        "comment": "",
+        "key": "身体数据",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 32
+        }
+      },
+      {
+        "comment": "",
+        "key": "活动水平",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 48
+        }
+      },
+      {
+        "comment": "",
+        "key": "目标",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 64
+        }
+      },
+      {
+        "comment": "",
+        "key": "计算结果",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 73
+        }
+      },
+      {
+        "comment": "",
+        "key": "姓名",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "年龄: %lld岁",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 22
+        }
+      },
+      {
+        "comment": "",
+        "key": "性别",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "身高",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 34
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld cm",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 36
+        }
+      },
+      {
+        "comment": "",
+        "key": "体重",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 41
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ kg",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 43
+        }
+      },
+      {
+        "comment": "",
+        "key": "活动水平",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 49
+        }
+      },
+      {
+        "comment": "",
+        "key": "目标",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 65
+        }
+      },
+      {
+        "comment": "",
+        "key": "基础代谢率 (BMR)",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 75
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld 千卡/天",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 77
+        }
+      },
+      {
+        "comment": "",
+        "key": "每日总消耗 (TDEE)",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 82
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld 千卡/天",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 84
+        }
+      },
+      {
+        "comment": "",
+        "key": "推荐摄入",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 89
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld 千卡/天",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 91
+        }
+      },
+      {
+        "comment": "",
+        "key": "取消",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 101
+        }
+      },
+      {
+        "comment": "",
+        "key": "保存",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 107
+        }
+      }
+    ]
+  },
+  "version": 1
+}
