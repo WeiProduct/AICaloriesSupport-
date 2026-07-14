@@ -126,10 +126,10 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 
 /* Hero calorie device */
 .hero-visual { position: relative; display: flex; justify-content: center; }
-.device { position: relative; width: 300px; max-width: 78vw; background: var(--card); border: 1px solid var(--border-color); border-radius: 42px; padding: 16px 16px 20px; box-shadow: var(--shadow-lg); }
+.device { position: relative; width: 300px; max-width: 78vw; aspect-ratio: 9 / 19.5; display: flex; flex-direction: column; overflow: hidden; background: var(--card); border: 1px solid var(--border-color); border-radius: 42px; padding: 16px 16px 20px; box-shadow: var(--shadow-lg); }
 .device-notch { position: absolute; top: 13px; left: 50%; transform: translateX(-50%); width: 92px; height: 22px; background: var(--text-primary); opacity: .9; border-radius: 999px; }
 :root[data-theme="dark"] .device-notch { background: #000; opacity: 1; }
-.cal { margin-top: 30px; }
+.cal { margin-top: 30px; flex: 1; min-height: 0; display: flex; flex-direction: column; justify-content: space-between; }
 .cal-head { display: flex; align-items: center; justify-content: space-between; padding: 4px 6px 6px; }
 .cal-title { font-weight: 800; font-size: 19px; }
 .cal-ai { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; color: var(--primary-color); }
