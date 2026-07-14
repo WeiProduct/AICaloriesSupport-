@@ -1,178 +1,338 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI卡路里 | AI Food Recognition and Nutrition Tracking</title>
-    <meta name="description" content="AI卡路里是一款智能营养追踪应用，通过拍照识别食物，记录卡路里、蛋白质、碳水、脂肪、水分摄入和体重趋势。">
-    <meta name="robots" content="index,follow">
-    <meta name="theme-color" content="#111827">
-    <link rel="canonical" href="https://weiproduct.github.io/AICaloriesSupport-/">
+    <meta name="theme-color" content="#19a974" id="themeColorMeta">
+    <meta name="robots" content="index, follow">
+    <title>AI卡路里 - 拍照识别食物营养 | Food Calories</title>
+    <meta name="description" content="AI卡路里（Food Calories）是一款智能营养追踪 iOS 应用：拍照即可识别食物，估算卡路里、蛋白质、碳水和脂肪，追踪饮水、体重与每日目标，支持中英双语。">
+    <meta property="og:title" content="Food Calories · AI卡路里">
+    <meta property="og:description" content="拍照识别食物营养——热量、蛋白质、碳水、脂肪、饮水与体重趋势，尽在一处。Snap a meal, get calories & macros instantly.">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="AI卡路里 | AI Food Recognition">
-    <meta property="og:description" content="Take a food photo, estimate nutrition, and keep daily health goals visible.">
     <meta property="og:url" content="https://weiproduct.github.io/AICaloriesSupport-/">
-    <meta property="og:image" content="https://weiproduct.github.io/AICaloriesSupport-/screenshot_1.png">
+    <meta property="og:image" content="https://weiproduct.github.io/AICaloriesSupport-/og-cover.png">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="AI卡路里 | AI Food Recognition">
-    <meta name="twitter:description" content="AI nutrition tracking for food recognition, macro logging, water intake, and weight trends.">
+    <meta name="twitter:title" content="Food Calories · AI卡路里">
+    <meta name="twitter:description" content="Snap a meal and let AI estimate calories, protein, carbs and fat. Track water, weight and daily goals. Private by design, EN / 中文.">
+    <meta name="twitter:image" content="https://weiproduct.github.io/AICaloriesSupport-/og-cover.png">
+    <link rel="canonical" href="https://weiproduct.github.io/AICaloriesSupport-/">
+    <link rel="alternate" hreflang="zh-CN" href="https://weiproduct.github.io/AICaloriesSupport-/">
+    <link rel="alternate" hreflang="en" href="https://weiproduct.github.io/AICaloriesSupport-/">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23b7f36b'/%3E%3Cstop offset='1' stop-color='%2319a974'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='24' fill='url(%23g)'/%3E%3Cg stroke='%23ffffff' stroke-width='6' stroke-linecap='round' fill='none'%3E%3Cpath d='M34 26 V40'/%3E%3Cpath d='M40 26 V40'/%3E%3Cpath d='M46 26 V40'/%3E%3Cpath d='M34 40 H46'/%3E%3Cpath d='M40 40 V76'/%3E%3Cpath d='M62 26 V76'/%3E%3Cpath d='M62 26 C54 31 54 45 62 49'/%3E%3C/g%3E%3C/svg%3E">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23b7f36b'/%3E%3Cstop offset='1' stop-color='%2319a974'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='24' fill='url(%23g)'/%3E%3Cg stroke='%23ffffff' stroke-width='6' stroke-linecap='round' fill='none'%3E%3Cpath d='M34 26 V40'/%3E%3Cpath d='M40 26 V40'/%3E%3Cpath d='M46 26 V40'/%3E%3Cpath d='M34 40 H46'/%3E%3Cpath d='M40 40 V76'/%3E%3Cpath d='M62 26 V76'/%3E%3Cpath d='M62 26 C54 31 54 45 62 49'/%3E%3C/g%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "SoftwareApplication",
       "name": "AI卡路里",
-      "alternateName": "AI Calories",
-      "applicationCategory": "LifestyleApplication",
-      "operatingSystem": "iOS, iPadOS",
+      "alternateName": "Food Calories",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "iOS 16.0+, iPadOS",
       "url": "https://weiproduct.github.io/AICaloriesSupport-/",
+      "image": "https://weiproduct.github.io/AICaloriesSupport-/og-cover.png",
       "downloadUrl": "https://apps.apple.com/app/id6748717022",
-      "creator": {
-        "@type": "Organization",
-        "name": "WeiProduct",
-        "url": "https://weiproduct.com/"
-      },
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD"
-      }
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "publisher": { "@type": "Organization", "name": "WeiProduct", "url": "https://weiproduct.com/" },
+      "description": "AI卡路里（Food Calories）是一款智能营养追踪 iOS 应用，通过拍照识别食物并估算卡路里、蛋白质、碳水和脂肪，同时追踪饮水、体重与每日健康目标，支持中英双语。"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "AI 食物识别需要联网吗？", "acceptedAnswer": { "@type": "Answer", "text": "拍照识别由 AI 完成，需要联网上传照片进行分析；识别之外的记录浏览与数据查看均可在设备本地进行。" } },
+        { "@type": "Question", "name": "支持哪些设备和系统？", "acceptedAnswer": { "@type": "Answer", "text": "支持 iPhone 与 iPad，建议使用较新的 iOS / iPadOS 版本以获得完整体验。" } },
+        { "@type": "Question", "name": "可以追踪哪些营养数据？", "acceptedAnswer": { "@type": "Answer", "text": "可追踪卡路里、蛋白质、碳水化合物、脂肪，以及每日饮水、BMI 和体重趋势。" } },
+        { "@type": "Question", "name": "除了拍照还能怎样添加食物？", "acceptedAnswer": { "@type": "Answer", "text": "除拍照识别外，还支持从相册选择照片、搜索食物库以及手动输入，随时快速记录。" } },
+        { "@type": "Question", "name": "支持中英双语吗？是否收费？", "acceptedAnswer": { "@type": "Answer", "text": "界面支持简体中文与英文双语，App 可免费下载使用。" } }
+      ]
     }
     </script>
 </head>
 <body>
-    <header class="site-header">
-        <nav class="nav" aria-label="Primary navigation">
-            <a class="brand" href="#top" aria-label="AI卡路里 home">
-                <span class="brand-mark" aria-hidden="true">AI</span>
-                <span>AI卡路里</span>
+    <a class="skip-link" href="#main" data-i18n="skip">跳到主要内容</a>
+
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a class="nav-brand" href="#" aria-label="AI卡路里 / Food Calories">
+                <span class="brand-icon" aria-hidden="true">
+                    <svg viewBox="0 0 100 100" width="34" height="34"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b7f36b"/><stop offset="1" stop-color="#19a974"/></linearGradient></defs><rect width="100" height="100" rx="24" fill="url(#bg)"/><g stroke="#fff" stroke-width="6" stroke-linecap="round" fill="none"><path d="M34 26 V40"/><path d="M40 26 V40"/><path d="M46 26 V40"/><path d="M34 40 H46"/><path d="M40 40 V76"/><path d="M62 26 V76"/><path d="M62 26 C54 31 54 45 62 49"/></g></svg>
+                </span>
+                <span class="brand-name" data-i18n="brand">AI卡路里</span>
             </a>
-            <div class="nav-links">
-                <a href="#features">功能</a>
-                <a href="#screenshots">界面</a>
-                <a href="#support">支持</a>
+            <div class="nav-menu">
+                <a href="#how" class="nav-link" data-i18n="navHow">使用流程</a>
+                <a href="#features" class="nav-link" data-i18n="navFeatures">功能特点</a>
+                <a href="#screenshots" class="nav-link" data-i18n="navScreenshots">应用界面</a>
+                <a href="#faq" class="nav-link" data-i18n="navFaq">常见问题</a>
+                <button class="icon-btn" type="button" id="themeToggle" aria-label="切换深色模式">
+                    <svg class="i-sun" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M19.1 4.9l-1.8 1.8M6.7 17.3l-1.8 1.8"/></svg>
+                    <svg class="i-moon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8z"/></svg>
+                </button>
+                <button class="lang-switch" type="button" id="langSwitch" aria-label="Switch language">EN</button>
+                <a href="https://apps.apple.com/app/id6748717022" class="btn btn-primary btn-sm nav-cta" target="_blank" rel="noopener noreferrer" data-i18n="navGet">获取 App</a>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
-    <main id="top">
-        <section class="hero" aria-labelledby="hero-title">
-            <div class="hero-copy">
-                <p class="eyebrow">AI Nutrition Tracker</p>
-                <h1 id="hero-title">拍照记录饮食，让营养目标更清楚</h1>
-                <p class="hero-lede">AI卡路里用图像识别帮助用户记录食物营养，覆盖卡路里、蛋白质、碳水化合物、脂肪、水分摄入和体重趋势，适合健康饮食、体重管理和健身人群。</p>
-                <div class="actions">
-                    <a class="btn btn-primary" href="https://apps.apple.com/app/id6748717022" target="_blank" rel="noopener noreferrer">App Store 下载</a>
-                    <a class="btn btn-secondary" href="#screenshots">查看界面</a>
+    <main id="main">
+    <section class="hero">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="container">
+            <div class="hero-content">
+                <span class="eyebrow" data-i18n="heroEyebrow">✦ AI 营养识别助手</span>
+                <h1 class="hero-title" data-i18n="heroTitle">拍照记录饮食，营养目标更清楚</h1>
+                <p class="hero-subtitle" data-i18n="heroSubtitle">拍一张照片，AI 立即估算卡路里、蛋白质、碳水和脂肪，并帮你追踪饮水、体重与每日目标。</p>
+                <div class="hero-buttons">
+                    <a href="https://apps.apple.com/app/id6748717022" class="appstore-link" target="_blank" rel="noopener noreferrer" aria-label="Download on the App Store">
+                        <svg class="appstore-badge" viewBox="0 0 120 40" width="150" height="50" role="img" aria-label="Download on the App Store">
+                            <rect width="120" height="40" rx="7" fill="#000"/>
+                            <g fill="#fff"><path d="M25.6 20.3c-.02-2.6 2.13-3.85 2.23-3.92-1.22-1.78-3.11-2.02-3.78-2.05-1.6-.16-3.13.94-3.94.94-.82 0-2.07-.92-3.4-.9-1.75.03-3.36 1.02-4.26 2.58-1.82 3.15-.46 7.8 1.3 10.36.86 1.25 1.88 2.65 3.23 2.6 1.3-.05 1.79-.84 3.36-.84 1.55 0 2 .84 3.38.81 1.4-.02 2.28-1.27 3.13-2.53.99-1.45 1.4-2.85 1.42-2.93-.03-.01-2.72-1.05-2.75-4.15z"/><path d="M23.02 12.7c.71-.86 1.19-2.05 1.06-3.24-1.02.04-2.26.68-2.99 1.54-.65.76-1.23 1.97-1.07 3.13 1.14.09 2.3-.58 3-1.43z"/></g>
+                            <text x="34" y="16" fill="#fff" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="6.2" letter-spacing=".2">Download on the</text>
+                            <text x="33.4" y="30" fill="#fff" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="13" font-weight="600">App Store</text>
+                        </svg>
+                    </a>
+                    <a href="#screenshots" class="btn btn-secondary" data-i18n="learnMore">查看界面</a>
                 </div>
-                <dl class="facts" aria-label="Product facts">
-                    <div>
-                        <dt>核心</dt>
-                        <dd>AI食物识别</dd>
+                <ul class="hero-trust">
+                    <li data-i18n="trust1">📷 拍照即识别</li>
+                    <li data-i18n="trust2">🥗 全营养追踪</li>
+                    <li data-i18n="trust3">🌏 中英双语</li>
+                </ul>
+            </div>
+            <div class="hero-visual">
+                <div class="device" id="heroDevice" role="img" aria-label="AI 估算一餐的热量与三大营养素">
+                    <div class="device-notch" aria-hidden="true"></div>
+                    <div class="cal">
+                        <div class="cal-head">
+                            <span class="cal-title" data-i18n="calToday">今日摄入</span>
+                            <span class="cal-ai"><span class="dot"></span><span data-i18n="calAi">AI 估算</span></span>
+                        </div>
+                        <div class="cal-ring-wrap">
+                            <svg class="cal-ring" viewBox="0 0 120 120" aria-hidden="true">
+                                <defs><linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b7f36b"/><stop offset="1" stop-color="#19a974"/></linearGradient></defs>
+                                <circle class="ring-track" cx="60" cy="60" r="52"/>
+                                <circle class="ring-fill" cx="60" cy="60" r="52" id="ringFill"/>
+                            </svg>
+                            <div class="cal-center">
+                                <span class="cal-num" id="calNum">0</span>
+                                <span class="cal-unit" data-i18n="calUnit">/ 2000 kcal</span>
+                            </div>
+                        </div>
+                        <div class="macros">
+                            <div class="macro">
+                                <div class="macro-top"><span data-i18n="mProtein">蛋白质</span><b>68 g</b></div>
+                                <div class="macro-bar"><i class="mb mb-p" style="--w:62%"></i></div>
+                            </div>
+                            <div class="macro">
+                                <div class="macro-top"><span data-i18n="mCarbs">碳水</span><b>182 g</b></div>
+                                <div class="macro-bar"><i class="mb mb-c" style="--w:74%"></i></div>
+                            </div>
+                            <div class="macro">
+                                <div class="macro-top"><span data-i18n="mFat">脂肪</span><b>41 g</b></div>
+                                <div class="macro-bar"><i class="mb mb-f" style="--w:48%"></i></div>
+                            </div>
+                        </div>
+                        <div class="cal-foot"><span data-i18n="calFoot">意大利面 · 约 680 kcal · 识别 95%</span></div>
                     </div>
-                    <div>
-                        <dt>数据</dt>
-                        <dd>本地优先</dd>
-                    </div>
-                    <div>
-                        <dt>平台</dt>
-                        <dd>iPhone / iPad</dd>
-                    </div>
-                </dl>
-            </div>
-            <div class="hero-visual" aria-label="AI卡路里 app preview">
-                <div class="phone-frame">
-                    <img src="screenshot_1.png" alt="AI卡路里每日营养概览界面" width="1206" height="2622" fetchpriority="high" decoding="async">
                 </div>
-                <div class="macro-card" aria-hidden="true">
-                    <span>kcal</span>
-                    <strong>AI</strong>
-                    <small>macro insight</small>
-                </div>
+                <div class="hero-chip chip-a" data-i18n="chipA">💧 饮水 6 / 8 杯</div>
+                <div class="hero-chip chip-b" data-i18n="chipB">⚖️ 本周 -0.4 kg</div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="features" class="features">
-            <div class="container">
-                <div class="section-heading">
-                    <p class="eyebrow">Why it matters</p>
-                    <h2>把复杂饮食记录变成几个清楚动作</h2>
-                    <p>产品优势集中在“少输入、看得懂、能坚持”：拍照识别食物，自动形成营养记录，再用目标和趋势帮助用户持续调整。</p>
-                </div>
-                <div class="feature-grid">
-                    <article class="feature-card">
-                        <span>01</span>
-                        <h3>AI食物识别</h3>
-                        <p>通过拍照识别餐食，并估算卡路里与主要营养成分，减少繁琐手动录入。</p>
-                    </article>
-                    <article class="feature-card">
-                        <span>02</span>
-                        <h3>宏量营养追踪</h3>
-                        <p>记录蛋白质、碳水、脂肪和热量摄入，让每日饮食结构更直观。</p>
-                    </article>
-                    <article class="feature-card">
-                        <span>03</span>
-                        <h3>个性化目标</h3>
-                        <p>基于年龄、性别和活动水平设置目标，让健康管理更贴近个人状态。</p>
-                    </article>
-                    <article class="feature-card">
-                        <span>04</span>
-                        <h3>水分与体重管理</h3>
-                        <p>把饮水、BMI、体重趋势和营养图表放在同一个闭环里，便于长期观察。</p>
-                    </article>
-                </div>
+    <section class="proof" aria-label="highlights">
+        <div class="container proof-row">
+            <div class="proof-rating">
+                <div class="stars" aria-hidden="true">★★★★★</div>
+                <div class="proof-sub"><strong>App Store</strong><span data-i18n="proofRating">健康 · 营养追踪</span></div>
             </div>
-        </section>
+            <div class="proof-stats">
+                <div class="stat"><strong>AI</strong><span data-i18n="stat1">拍照识别</span></div>
+                <div class="stat"><strong>4</strong><span data-i18n="stat2">核心营养素</span></div>
+                <div class="stat"><strong>EN / 中文</strong><span data-i18n="stat3">双语界面</span></div>
+                <div class="stat"><strong>0</strong><span data-i18n="stat4">广告 · 追踪</span></div>
+            </div>
+        </div>
+    </section>
 
-        <section id="screenshots" class="screenshots">
-            <div class="container">
-                <div class="section-heading">
-                    <p class="eyebrow">Current app surface</p>
-                    <h2>产品界面预览</h2>
-                    <p>用真实截图展示 AI 识别、营养记录和目标追踪，不依赖空泛宣传。</p>
+    <section id="how" class="how">
+        <div class="container">
+            <h2 class="section-title" data-i18n="howTitle">三步记录一餐</h2>
+            <p class="section-sub" data-i18n="howSub">拍照、识别、追踪——把复杂的营养记录变简单。</p>
+            <div class="steps">
+                <div class="step reveal">
+                    <div class="step-badge">1</div>
+                    <div class="step-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.5A2.5 2.5 0 0 1 5.5 6h1.2l1-1.6a1.6 1.6 0 0 1 1.35-.75h4.9a1.6 1.6 0 0 1 1.35.75L16.3 6h1.2A2.5 2.5 0 0 1 20 8.5v8A2.5 2.5 0 0 1 17.5 19h-11A2.5 2.5 0 0 1 4 16.5z"/><circle cx="12" cy="12.5" r="3.4"/></svg></div>
+                    <h3 data-i18n="step1Title">拍照记录餐食</h3>
+                    <p data-i18n="step1Desc">对准食物拍一张，或从相册选择、手动搜索——想怎么记都可以。</p>
                 </div>
-                <div class="screenshot-grid">
-                    <figure>
-                        <img src="screenshot_1.png" alt="AI卡路里主页" width="1206" height="2622" loading="lazy" decoding="async">
-                        <figcaption>每日概览</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="screenshot_2.png" alt="AI卡路里食物识别" width="1206" height="2622" loading="lazy" decoding="async">
-                        <figcaption>食物识别</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="screenshot_3.png" alt="AI卡路里营养统计" width="1206" height="2622" loading="lazy" decoding="async">
-                        <figcaption>营养统计</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="screenshot_4.png" alt="AI卡路里健康目标" width="1206" height="2622" loading="lazy" decoding="async">
-                        <figcaption>健康目标</figcaption>
-                    </figure>
+                <div class="step reveal">
+                    <div class="step-badge">2</div>
+                    <div class="step-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 4 4.1.5-3 2.9.8 4.1L12 16.6 8.2 18.5l.8-4.1-3-2.9 4.1-.5z"/><path d="M5 20.5h14"/></svg></div>
+                    <h3 data-i18n="step2Title">AI 识别营养</h3>
+                    <p data-i18n="step2Desc">AI 自动识别食物，估算卡路里以及蛋白质、碳水和脂肪，减少手动输入。</p>
+                </div>
+                <div class="step reveal">
+                    <div class="step-badge">3</div>
+                    <div class="step-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-5 3.5 3.5L20 7"/><path d="M20 7h-4M20 7v4"/><path d="M3 21h18"/></svg></div>
+                    <h3 data-i18n="step3Title">追踪目标与趋势</h3>
+                    <p data-i18n="step3Desc">对照每日目标查看进度，追踪饮水、体重与营养趋势，坚持得更久。</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="support" class="support">
-            <div class="container support-panel">
-                <div>
-                    <p class="eyebrow">Support</p>
-                    <h2>需要帮助或反馈？</h2>
-                    <p>如果你遇到识别、记录、目标设置或数据问题，可以直接联系 WeiProduct 支持邮箱。</p>
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title" data-i18n="featuresTitle">核心功能</h2>
+            <p class="section-sub" data-i18n="featuresSub">为“少输入、看得懂、能坚持”而设计。</p>
+            <div class="features-grid">
+                <div class="feature-card reveal">
+                    <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.5A2.5 2.5 0 0 1 5.5 6h1.2l1-1.6a1.6 1.6 0 0 1 1.35-.75h4.9a1.6 1.6 0 0 1 1.35.75L16.3 6h1.2A2.5 2.5 0 0 1 20 8.5v8A2.5 2.5 0 0 1 17.5 19h-11A2.5 2.5 0 0 1 4 16.5z"/><circle cx="12" cy="12.5" r="3.4"/></svg></div>
+                    <h3 data-i18n="feature1Title">AI 食物识别</h3>
+                    <p data-i18n="feature1Desc">拍照识别餐食并估算卡路里与主要营养成分，几秒完成一次记录。</p>
                 </div>
-                <div class="support-actions">
-                    <a class="btn btn-primary" href="mailto:1597498880weiproduct@gmail.com?subject=AI%20Calories%20support">联系支持</a>
-                    <a class="btn btn-secondary" href="https://weiproduct.com/" target="_blank" rel="noopener noreferrer">公司网站</a>
+                <div class="feature-card reveal">
+                    <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V4"/><path d="M4 20h16"/><rect x="7" y="12" width="3" height="5" rx="1"/><rect x="12" y="8" width="3" height="9" rx="1"/><rect x="17" y="5" width="3" height="12" rx="1"/></svg></div>
+                    <h3 data-i18n="feature2Title">宏量营养追踪</h3>
+                    <p data-i18n="feature2Desc">记录蛋白质、碳水、脂肪与热量摄入，让每日饮食结构一目了然。</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1"/></svg></div>
+                    <h3 data-i18n="feature3Title">个性化目标</h3>
+                    <p data-i18n="feature3Desc">依据年龄、性别与活动水平设定每日热量目标，贴近你的真实状态。</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.2s6 6.4 6 10.4a6 6 0 0 1-12 0c0-4 6-10.4 6-10.4z"/><path d="M9.2 14.2a2.8 2.8 0 0 0 2.8 2.6"/></svg></div>
+                    <h3 data-i18n="feature4Title">饮水与体重</h3>
+                    <p data-i18n="feature4Desc">记录每日饮水、BMI 与体重趋势，把健康管理放进同一个闭环。</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-5 3.5 3.5L20 7"/><path d="M20 7h-4M20 7v4"/><path d="M3 21h18"/></svg></div>
+                    <h3 data-i18n="feature5Title">趋势与统计</h3>
+                    <p data-i18n="feature5Desc">用周、月视图查看摄入趋势和营养素分布，随时调整饮食计划。</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5l7 3v5c0 4.4-3 8.3-7 9.5-4-1.2-7-5.1-7-9.5v-5z"/><path d="M9 12l2 2 4-4"/></svg></div>
+                    <h3 data-i18n="feature6Title">本地优先与隐私</h3>
+                    <p data-i18n="feature6Desc">记录数据以本地存储为先，仅在识别时联网分析，隐私始终由你掌握。</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
+
+    <section id="screenshots" class="screenshots">
+        <div class="container">
+            <h2 class="section-title" data-i18n="screenshotsTitle">应用界面</h2>
+            <p class="section-sub" data-i18n="screenshotsSub">左右滑动，点击任意截图可放大查看。</p>
+            <div class="gallery">
+                <button class="gal-arrow prev" type="button" aria-label="上一张" id="galPrev">‹</button>
+                <div class="gal-track" id="galTrack">
+                    <figure class="shot reveal">
+                        <div class="phone"><img src="cal-home.png" alt="今日摄入概览界面" width="656" height="1330" loading="lazy" decoding="async"></div>
+                        <figcaption data-i18n="shot1">今日摄入概览</figcaption>
+                    </figure>
+                    <figure class="shot reveal">
+                        <div class="phone"><img src="cal-camera.png" alt="拍照识别食物界面" width="656" height="1330" loading="lazy" decoding="async"></div>
+                        <figcaption data-i18n="shot2">拍照识别食物</figcaption>
+                    </figure>
+                    <figure class="shot reveal">
+                        <div class="phone"><img src="cal-result.png" alt="AI 营养识别结果界面" width="656" height="1330" loading="lazy" decoding="async"></div>
+                        <figcaption data-i18n="shot3">AI 营养估算</figcaption>
+                    </figure>
+                    <figure class="shot reveal">
+                        <div class="phone"><img src="cal-search.png" alt="搜索并添加食物界面" width="656" height="1330" loading="lazy" decoding="async"></div>
+                        <figcaption data-i18n="shot4">搜索快速添加</figcaption>
+                    </figure>
+                    <figure class="shot reveal">
+                        <div class="phone"><img src="cal-stats.png" alt="数据统计与趋势界面" width="656" height="1330" loading="lazy" decoding="async"></div>
+                        <figcaption data-i18n="shot5">趋势与统计</figcaption>
+                    </figure>
+                    <figure class="shot reveal">
+                        <div class="phone"><img src="cal-goals.png" alt="目标与体重设置界面" width="656" height="1330" loading="lazy" decoding="async"></div>
+                        <figcaption data-i18n="shot6">目标与体重</figcaption>
+                    </figure>
+                </div>
+                <button class="gal-arrow next" type="button" aria-label="下一张" id="galNext">›</button>
+            </div>
+            <div class="gal-dots" id="galDots" aria-hidden="true"></div>
+        </div>
+    </section>
+
+    <section class="privacy">
+        <div class="container privacy-card">
+            <div class="privacy-lead">
+                <h2 data-i18n="privacyTitle">你的饮食数据，尽在掌握</h2>
+                <p data-i18n="privacyDesc">记录以本地存储为先，仅在拍照识别时联网分析。没有广告、不做用户追踪。</p>
+            </div>
+            <ul class="privacy-points">
+                <li><span aria-hidden="true">📱</span><span data-i18n="pp1">数据本地优先</span></li>
+                <li><span aria-hidden="true">🔒</span><span data-i18n="pp2">仅识别时联网</span></li>
+                <li><span aria-hidden="true">🚫</span><span data-i18n="pp3">无用户追踪</span></li>
+                <li><span aria-hidden="true">🎯</span><span data-i18n="pp4">无广告干扰</span></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2 class="section-title" data-i18n="faqTitle">常见问题</h2>
+            <div class="faq-list">
+                <details class="faq-item reveal"><summary data-i18n="q1">AI 食物识别需要联网吗？</summary><p data-i18n="a1">拍照识别由 AI 完成，需要联网上传照片进行分析；识别之外的记录浏览与数据查看均可在设备本地进行。</p></details>
+                <details class="faq-item reveal"><summary data-i18n="q2">支持哪些设备和系统？</summary><p data-i18n="a2">支持 iPhone 与 iPad，建议使用较新的 iOS / iPadOS 版本以获得完整体验。</p></details>
+                <details class="faq-item reveal"><summary data-i18n="q3">可以追踪哪些营养数据？</summary><p data-i18n="a3">可追踪卡路里、蛋白质、碳水化合物、脂肪，以及每日饮水、BMI 和体重趋势。</p></details>
+                <details class="faq-item reveal"><summary data-i18n="q4">除了拍照还能怎样添加食物？</summary><p data-i18n="a4">除拍照识别外，还支持从相册选择照片、搜索食物库以及手动输入，随时快速记录。</p></details>
+                <details class="faq-item reveal"><summary data-i18n="q5">支持中英双语吗？是否收费？</summary><p data-i18n="a5">界面支持简体中文与英文双语，App 可免费下载使用。</p></details>
+            </div>
+        </div>
+    </section>
+
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-content">
+                <h2 data-i18n="downloadTitle">立即下载 Food Calories</h2>
+                <p data-i18n="downloadSubtitle">拍一张照片，开始更清楚的营养管理。</p>
+                <div class="download-buttons">
+                    <a href="https://apps.apple.com/app/id6748717022" class="appstore-link light" target="_blank" rel="noopener noreferrer" aria-label="Download on the App Store">
+                        <svg class="appstore-badge" viewBox="0 0 120 40" width="170" height="57" role="img" aria-label="Download on the App Store">
+                            <rect width="120" height="40" rx="7" fill="#000"/>
+                            <g fill="#fff"><path d="M25.6 20.3c-.02-2.6 2.13-3.85 2.23-3.92-1.22-1.78-3.11-2.02-3.78-2.05-1.6-.16-3.13.94-3.94.94-.82 0-2.07-.92-3.4-.9-1.75.03-3.36 1.02-4.26 2.58-1.82 3.15-.46 7.8 1.3 10.36.86 1.25 1.88 2.65 3.23 2.6 1.3-.05 1.79-.84 3.36-.84 1.55 0 2 .84 3.38.81 1.4-.02 2.28-1.27 3.13-2.53.99-1.45 1.4-2.85 1.42-2.93-.03-.01-2.72-1.05-2.75-4.15z"/><path d="M23.02 12.7c.71-.86 1.19-2.05 1.06-3.24-1.02.04-2.26.68-2.99 1.54-.65.76-1.23 1.97-1.07 3.13 1.14.09 2.3-.58 3-1.43z"/></g>
+                            <text x="34" y="16" fill="#fff" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="6.2" letter-spacing=".2">Download on the</text>
+                            <text x="33.4" y="30" fill="#fff" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="13" font-weight="600">App Store</text>
+                        </svg>
+                    </a>
+                </div>
+                <p class="download-note" data-i18n="downloadNote">免费下载 · 支持 iPhone 与 iPad</p>
+            </div>
+        </div>
+    </section>
     </main>
 
     <footer class="footer">
-        <div class="container footer-inner">
-            <a href="https://weiproduct.com/" target="_blank" rel="noopener noreferrer">WeiProduct</a>
-            <p>&copy; <span id="currentYear">2026</span> WeiProduct. All rights reserved.</p>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; <span id="currentYear">2026</span> <span data-i18n="footerRights">AI卡路里 / Food Calories. 保留所有权利。</span></p>
+                <p data-i18n="footerMadeBy">Built by WeiProduct</p>
+                <p>Contact: <a href="mailto:1597498880weiproduct@gmail.com">1597498880weiproduct@gmail.com</a></p>
+            </div>
         </div>
     </footer>
+
+    <div class="sticky-cta" id="stickyCta">
+        <div class="sticky-app">
+            <span class="brand-icon sm" aria-hidden="true"><svg viewBox="0 0 100 100" width="30" height="30"><rect width="100" height="100" rx="24" fill="url(#bg)"/><g stroke="#fff" stroke-width="6" stroke-linecap="round" fill="none"><path d="M34 26 V40"/><path d="M40 26 V40"/><path d="M46 26 V40"/><path d="M34 40 H46"/><path d="M40 40 V76"/><path d="M62 26 V76"/><path d="M62 26 C54 31 54 45 62 49"/></g></svg></span>
+            <div class="sticky-txt"><strong data-i18n="brand">AI卡路里</strong><span data-i18n="stickySub">AI 拍照识别 · 免费</span></div>
+        </div>
+        <a href="https://apps.apple.com/app/id6748717022" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer" data-i18n="stickyGet">获取</a>
+    </div>
 
     <script src="script.js"></script>
 </body>
