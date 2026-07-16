@@ -38,7 +38,27 @@ const I18N = {
     q5: '支持中英双语吗？是否收费？', a5: '界面支持简体中文与英文双语，App 可免费下载使用。',
     downloadTitle: '立即下载 Food Calories', downloadSubtitle: '拍一张照片，开始更清楚的营养管理。', downloadNote: '免费下载 · 支持 iPhone 与 iPad',
     footerRights: 'AI卡路里 / Food Calories. 保留所有权利。', footerMadeBy: 'Built by WeiProduct',
-    stickySub: 'AI 拍照识别 · 免费', stickyGet: '获取'
+    stickySub: 'AI 拍照识别 · 免费', stickyGet: '获取',
+    eyeHow: '使用流程', eyeDemo: '互动演示', eyeFeatures: '功能特点', eyePersonas: '使用场景', eyeScreens: '界面预览', eyeMethod: '识别原理', eyeCompare: '效率对比', eyePrivacy: '隐私承诺', eyeFaq: '答疑解惑',
+    demoTitle: '亲手试试识别的感觉', demoSub: '点一个示例餐食，看看 AI 识别结果长什么样。',
+    demoFood1: '🍜 拉面', demoFood2: '🥗 蔬菜沙拉', demoFood3: '🍕 披萨', demoFood4: '🍱 便当',
+    demoPlaceholder: '选择上方任意餐食', demoScanning: 'AI 识别中…',
+    demoDisclaimer: '示例估算——App 内数值以你的照片为准。',
+    personaTitle: '适合这样的你', personaSub: '不同的目标，同一个更省力的记录方式。',
+    persona1Name: '减脂新手', persona1Pain: '总在猜一顿饭有多少热量？', persona1Win: '拍一张，数字立刻有。',
+    persona2Name: '健身增肌党', persona2Pain: '蛋白质够不够，每天手算太累。', persona2Win: '三大营养素自动估算，达标一眼看清。',
+    persona3Name: '忙碌上班族', persona3Pain: '一忙起来，记录总是坚持不下来。', persona3Win: '电梯里就能记完一顿午餐。',
+    persona4Name: '习惯养成者', persona4Pain: '饮水、体重、三餐分散在不同 App。', persona4Win: '一个闭环，每天顺手完成。',
+    methodTitle: '从照片到营养素', methodSub: '一张照片如何变成卡路里与三大营养素——原理与边界都说清楚。',
+    methodStep1: '你的照片', methodStep2: 'AI 视觉识别', methodStep3: '食物匹配', methodStep4: '分量估算', methodStep5: '卡路里 + 三大营养素',
+    methodNote1: '是估算不是化验——一键即可修正。', methodNote2: '相册照片、手动搜索同样可用。', methodNote3: '只有识别这一步需要联网。',
+    cmpTitle: '为什么拍照，而不是手输', cmpSub: '不点名对比——只对比记录一顿饭要花的功夫。',
+    cmpCol0: '对比项', cmpCol1: 'AI卡路里', cmpCol2: '手动记录 App', cmpCol3: '笔记和表格',
+    cmpRow1: '记录一顿饭', cmpRow2: '蛋白质 · 碳水 · 脂肪', cmpRow3: '饮水体重同一 App', cmpRow4: '广告与追踪', cmpRow5: 'EN / 中文 双语',
+    cmpCell1a: '拍一张', cmpCell1b: '逐项搜索', cmpCell1c: '全部手输',
+    cmpCell2a: '自动估算', cmpCell2b: '手动查表', cmpCell2c: '自己计算',
+    cmpBuiltIn: '内置', cmpVaries: '视应用而定', cmpNone: '无',
+    footTagline: '拍一张照片，营养看得清。', footLinksTitle: '快速链接', footPrefsTitle: '偏好设置', footTheme: '切换深浅色', footDownload: '下载 App'
   },
   'en': {
     skip: 'Skip to content',
@@ -78,7 +98,27 @@ const I18N = {
     q5: 'Is it bilingual? Is it free?', a5: 'The interface supports Simplified Chinese and English, and the app is free to download.',
     downloadTitle: 'Download Food Calories Now', downloadSubtitle: 'Snap a photo and start clearer nutrition tracking.', downloadNote: 'Free download · iPhone & iPad',
     footerRights: 'AI卡路里 / Food Calories. All rights reserved.', footerMadeBy: 'Built by WeiProduct',
-    stickySub: 'AI photo recognition · Free', stickyGet: 'Get'
+    stickySub: 'AI photo recognition · Free', stickyGet: 'Get',
+    eyeHow: 'How it works', eyeDemo: 'Interactive demo', eyeFeatures: 'Features', eyePersonas: 'Who it’s for', eyeScreens: 'A look inside', eyeMethod: 'Under the hood', eyeCompare: 'Comparison', eyePrivacy: 'Privacy', eyeFaq: 'Good to know',
+    demoTitle: 'See how recognition feels', demoSub: 'Tap a sample meal and watch an AI-style estimate appear.',
+    demoFood1: '🍜 Ramen', demoFood2: '🥗 Salad bowl', demoFood3: '🍕 Pizza slice', demoFood4: '🍱 Bento',
+    demoPlaceholder: 'Pick a sample meal above', demoScanning: 'AI recognizing…',
+    demoDisclaimer: 'Sample estimate — values in-app are per your photo.',
+    personaTitle: 'Made for how you eat', personaSub: 'Different goals, one lower-effort way to log.',
+    persona1Name: 'Weight-loss starter', persona1Pain: 'Tired of guessing what a meal costs you?', persona1Win: 'Snap it and see the number.',
+    persona2Name: 'Gym & protein tracker', persona2Pain: 'Protein targets shouldn’t need spreadsheet math.', persona2Win: 'Macros are estimated automatically, at a glance.',
+    persona3Name: 'Busy 9-to-6', persona3Pain: 'Too busy to log meals at a desk.', persona3Win: 'Log lunch in the elevator instead.',
+    persona4Name: 'Habit keeper', persona4Pain: 'Water, weight and meals scattered across apps.', persona4Win: 'One daily loop keeps them together.',
+    methodTitle: 'From photo to macros', methodSub: 'How one photo becomes calories and macros — including the honest limits.',
+    methodStep1: 'Your photo', methodStep2: 'AI vision', methodStep3: 'Food match', methodStep4: 'Portion estimate', methodStep5: 'Calories + P/C/F',
+    methodNote1: 'Estimates, not lab values — edit anything with a tap.', methodNote2: 'Works with album photos and manual search too.', methodNote3: 'Only the recognition step goes online.',
+    cmpTitle: 'Why snap instead of type', cmpSub: 'No named competitors — just the effort it takes to log one meal.',
+    cmpCol0: 'Task', cmpCol1: 'Food Calories', cmpCol2: 'Manual calorie apps', cmpCol3: 'Notes & spreadsheets',
+    cmpRow1: 'Logging one meal', cmpRow2: 'Protein · carbs · fat', cmpRow3: 'Water & weight in one app', cmpRow4: 'Ads & tracking', cmpRow5: 'EN / 中文 bilingual',
+    cmpCell1a: 'One photo', cmpCell1b: 'Search each item', cmpCell1c: 'Type everything',
+    cmpCell2a: 'Auto-estimated', cmpCell2b: 'Manual lookup', cmpCell2c: 'Manual math',
+    cmpBuiltIn: 'Built in', cmpVaries: 'Varies', cmpNone: 'None',
+    footTagline: 'Snap a photo, see your nutrition clearly.', footLinksTitle: 'Quick links', footPrefsTitle: 'Preferences', footTheme: 'Toggle theme', footDownload: 'Download'
   }
 };
 
@@ -94,6 +134,8 @@ function applyLang(lang) {
   document.documentElement.lang = currentLang;
   const ls = document.getElementById('langSwitch');
   if (ls) ls.textContent = currentLang === 'zh-CN' ? 'EN' : '中文';
+  const fl = document.getElementById('footLang');
+  if (fl) fl.textContent = currentLang === 'zh-CN' ? 'EN' : '中文';
   try { localStorage.setItem('lang', currentLang); } catch (e) {}
 }
 
@@ -118,6 +160,18 @@ function initTheme() {
   setTheme(saved);
 }
 
+// ===== Eased number counter =====
+function animateCount(el, target, dur, fmt) {
+  const t0 = performance.now();
+  const tick = (now) => {
+    const p = Math.min(1, (now - t0) / dur);
+    const eased = 1 - Math.pow(1 - p, 3);
+    el.textContent = fmt(Math.round(target * eased));
+    if (p < 1) requestAnimationFrame(tick);
+  };
+  requestAnimationFrame(tick);
+}
+
 // ===== Hero calorie animation =====
 function initHero() {
   const device = document.getElementById('heroDevice');
@@ -131,18 +185,79 @@ function initHero() {
     device.classList.add('animate');
     if (!numEl) return;
     if (reduce) { numEl.textContent = fmt(target); return; }
-    const dur = 1400;
-    const t0 = performance.now();
-    const tick = (now) => {
-      const p = Math.min(1, (now - t0) / dur);
-      const eased = 1 - Math.pow(1 - p, 3);
-      numEl.textContent = fmt(Math.round(target * eased));
-      if (p < 1) requestAnimationFrame(tick);
-    };
-    requestAnimationFrame(tick);
+    animateCount(numEl, target, 1400, fmt);
   };
 
   requestAnimationFrame(() => requestAnimationFrame(start));
+}
+
+// ===== Try-it recognition demo =====
+const DEMO_FOODS = [
+  { key: 'demoFood1', kcal: 520, p: 22, c: 74, f: 16, pw: 44, cw: 74, fw: 32 },
+  { key: 'demoFood2', kcal: 320, p: 12, c: 26, f: 18, pw: 24, cw: 26, fw: 36 },
+  { key: 'demoFood3', kcal: 285, p: 12, c: 36, f: 10, pw: 24, cw: 36, fw: 20 },
+  { key: 'demoFood4', kcal: 610, p: 27, c: 82, f: 18, pw: 54, cw: 82, fw: 36 }
+];
+
+function initDemo() {
+  const card = document.getElementById('demoCard');
+  if (!card) return;
+  const chips = Array.from(document.querySelectorAll('.demo-chip'));
+  const nameEl = document.getElementById('demoFood');
+  const kcalEl = document.getElementById('demoKcal');
+  const valP = document.getElementById('demoValP');
+  const valC = document.getElementById('demoValC');
+  const valF = document.getElementById('demoValF');
+  const barP = document.getElementById('demoBarP');
+  const barC = document.getElementById('demoBarC');
+  const barF = document.getElementById('demoBarF');
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let timer = null;
+  let started = false;
+
+  function select(i) {
+    started = true;
+    chips.forEach((c, j) => c.classList.toggle('active', j === i));
+    const food = DEMO_FOODS[i];
+
+    const show = () => {
+      card.classList.remove('scanning');
+      nameEl.setAttribute('data-i18n', food.key);
+      nameEl.textContent = I18N[currentLang][food.key];
+      valP.textContent = food.p + ' g';
+      valC.textContent = food.c + ' g';
+      valF.textContent = food.f + ' g';
+      barP.style.setProperty('--w', food.pw + '%');
+      barC.style.setProperty('--w', food.cw + '%');
+      barF.style.setProperty('--w', food.fw + '%');
+      card.classList.add('done');
+      if (reduce) { kcalEl.textContent = '~' + food.kcal; return; }
+      animateCount(kcalEl, food.kcal, 900, (n) => '~' + n);
+    };
+
+    if (timer) clearTimeout(timer);
+    if (reduce) { show(); return; }
+    card.classList.remove('done');
+    nameEl.setAttribute('data-i18n', 'demoScanning');
+    nameEl.textContent = I18N[currentLang].demoScanning;
+    card.classList.remove('scanning');
+    void card.offsetWidth;
+    card.classList.add('scanning');
+    timer = setTimeout(show, 900);
+  }
+
+  chips.forEach((c, i) => c.addEventListener('click', () => select(i)));
+
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((en) => {
+        if (en.isIntersecting) { io.disconnect(); if (!started) select(0); }
+      });
+    }, { threshold: 0.4 });
+    io.observe(card);
+  } else {
+    select(0);
+  }
 }
 
 // ===== Gallery =====
@@ -213,16 +328,22 @@ function initReveal() {
   els.forEach((el, i) => { el.style.transitionDelay = (Math.min(i, 6) * 0.05) + 's'; io.observe(el); });
 }
 
-// ===== Nav + sticky =====
+// ===== Nav + sticky + progress =====
 function initScroll() {
   const nav = document.getElementById('navbar');
   const sticky = document.getElementById('stickyCta');
+  const prog = document.getElementById('scrollProgress');
   const onScroll = () => {
     const y = window.scrollY;
     if (nav) nav.classList.toggle('scrolled', y > 20);
     if (sticky) sticky.classList.toggle('show', y > 640);
+    if (prog) {
+      const max = document.documentElement.scrollHeight - window.innerHeight;
+      prog.style.width = (max > 0 ? Math.min(100, (y / max) * 100) : 0) + '%';
+    }
   };
   window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll, { passive: true });
   onScroll();
 }
 
@@ -231,6 +352,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initTheme();
   initLang();
   initHero();
+  initDemo();
   initGallery();
   initReveal();
   initScroll();
@@ -242,6 +364,10 @@ document.addEventListener('DOMContentLoaded', () => {
   if (ls) ls.addEventListener('click', () => applyLang(currentLang === 'zh-CN' ? 'en' : 'zh-CN'));
   const tt = document.getElementById('themeToggle');
   if (tt) tt.addEventListener('click', () => setTheme(document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'));
+  const fl = document.getElementById('footLang');
+  if (fl) fl.addEventListener('click', () => applyLang(currentLang === 'zh-CN' ? 'en' : 'zh-CN'));
+  const ft = document.getElementById('footTheme');
+  if (ft) ft.addEventListener('click', () => setTheme(document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'));
 
   document.querySelectorAll('a[href^="#"]').forEach(a => {
     a.addEventListener('click', function (e) {
