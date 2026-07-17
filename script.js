@@ -58,7 +58,18 @@ const I18N = {
     cmpCell1a: '拍一张', cmpCell1b: '逐项搜索', cmpCell1c: '全部手输',
     cmpCell2a: '自动估算', cmpCell2b: '手动查表', cmpCell2c: '自己计算',
     cmpBuiltIn: '内置', cmpVaries: '视应用而定', cmpNone: '无',
-    footTagline: '拍一张照片，营养看得清。', footLinksTitle: '快速链接', footPrefsTitle: '偏好设置', footTheme: '切换深浅色', footDownload: '下载 App'
+    footTagline: '拍一张照片，营养看得清。', footLinksTitle: '快速链接', footPrefsTitle: '偏好设置', footTheme: '切换深浅色', footDownload: '下载 App',
+    /* AI-AVATAR */
+    aiTitle: 'AI分身 · AI卡路里助手',
+    aiGreeting: '你好！我是 AI卡路里 的 AI分身 🥗 关于拍照识别、营养追踪、隐私或价格，都可以问我。',
+    aiPlaceholder: '输入你的问题…',
+    aiSend: '发送',
+    aiChip1: '拍照怎么算出卡路里？',
+    aiChip2: '我的饮食数据安全吗？',
+    aiChip3: '免费吗？支持哪些设备？',
+    aiDisclaimer: 'AI 生成，仅供参考',
+    aiError: '抱歉，AI 助手暂时连不上，请稍后再试。(Sorry, the assistant is temporarily unreachable — please try again later.)'
+    /* /AI-AVATAR */
   },
   'en': {
     skip: 'Skip to content',
@@ -118,7 +129,18 @@ const I18N = {
     cmpCell1a: 'One photo', cmpCell1b: 'Search each item', cmpCell1c: 'Type everything',
     cmpCell2a: 'Auto-estimated', cmpCell2b: 'Manual lookup', cmpCell2c: 'Manual math',
     cmpBuiltIn: 'Built in', cmpVaries: 'Varies', cmpNone: 'None',
-    footTagline: 'Snap a photo, see your nutrition clearly.', footLinksTitle: 'Quick links', footPrefsTitle: 'Preferences', footTheme: 'Toggle theme', footDownload: 'Download'
+    footTagline: 'Snap a photo, see your nutrition clearly.', footLinksTitle: 'Quick links', footPrefsTitle: 'Preferences', footTheme: 'Toggle theme', footDownload: 'Download',
+    /* AI-AVATAR */
+    aiTitle: 'AI Avatar · Food Calories Assistant',
+    aiGreeting: 'Hi! I\'m the AI avatar for Food Calories 🥗 Ask me about photo recognition, nutrition tracking, privacy, or pricing.',
+    aiPlaceholder: 'Type your question…',
+    aiSend: 'Send',
+    aiChip1: 'How does photo calorie counting work?',
+    aiChip2: 'Is my food data private?',
+    aiChip3: 'Is it free? Which devices?',
+    aiDisclaimer: 'AI-generated · for reference only',
+    aiError: 'Sorry, the assistant is temporarily unreachable — please try again later. （抱歉，AI 助手暂时连不上，请稍后再试。）'
+    /* /AI-AVATAR */
   }
 };
 
@@ -131,6 +153,12 @@ function applyLang(lang) {
     const k = el.getAttribute('data-i18n');
     if (t[k] !== undefined) el.textContent = t[k];
   });
+  /* AI-AVATAR: translate placeholder attributes */
+  document.querySelectorAll('[data-i18n-ph]').forEach(el => {
+    const k = el.getAttribute('data-i18n-ph');
+    if (t[k] !== undefined) el.setAttribute('placeholder', t[k]);
+  });
+  /* /AI-AVATAR */
   document.documentElement.lang = currentLang;
   const ls = document.getElementById('langSwitch');
   if (ls) ls.textContent = currentLang === 'zh-CN' ? 'EN' : '中文';
@@ -379,3 +407,148 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+/* AI-AVATAR: floating "AI分身" assistant widget */
+(function () {
+  const AI_PROXY_URL = 'https://personal-portfolio-api-sandy.vercel.app/api/chat-proxy';
+  const AI_SYSTEM_PROMPT = [
+    'You are the "AI分身" (AI avatar) assistant on the promo website of Food Calories (AI卡路里), an iOS nutrition-tracking app by WeiProduct.',
+    '',
+    'App facts (the ONLY facts you may state):',
+    '- One-liner: snap a photo of your meal and AI instantly estimates calories, protein, carbs and fat — then tracks water, weight and your daily goals.',
+    '- Key features: AI photo food recognition (point and shoot, pick from the photo album, search the food library, or enter items manually); macro tracking (calories, protein, carbohydrates, fat); personalized daily calorie goals based on age, sex and activity level; daily water intake, BMI and weight-trend tracking; weekly/monthly intake trends and nutrient analytics; AI results are estimates, not lab values, and can be corrected with one tap.',
+    '- Privacy: local-first — records are stored on-device first; internet is used only for the photo-recognition step (the photo is uploaded for analysis); no account required, no ads, no user tracking.',
+    '- Platform: iPhone and iPad; a recent iOS / iPadOS version is recommended for the full experience.',
+    '- Price: free.',
+    '- Languages: English and Simplified Chinese (中文).',
+    '- App Store link: https://apps.apple.com/app/id6748717022',
+    '',
+    'Style rules:',
+    '- ALWAYS reply in the same language as the user\'s most recent message: English question → English answer, 中文提问 → 中文回答. Do NOT default to Chinese just because the app has a Chinese name.',
+    '- Keep replies to 1-3 short sentences; be friendly and concrete.',
+    '- NEVER invent download counts, ratings, reviews, or features not listed above.',
+    '- Do not give medical or dietary advice beyond describing what the app tracks.',
+    '- If asked about unrelated topics, politely steer the conversation back to Food Calories.',
+    '- When the user wants to download or try the app, point them to the App Store link.'
+  ].join('\n');
+  const AI_MAX_HISTORY = 12;
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const toggle = document.getElementById('aiToggle');
+    const panel = document.getElementById('aiPanel');
+    const closeBtn = document.getElementById('aiClose');
+    const msgs = document.getElementById('aiMsgs');
+    const chipsWrap = document.getElementById('aiChips');
+    const form = document.getElementById('aiForm');
+    const input = document.getElementById('aiInput');
+    const sendBtn = document.getElementById('aiSendBtn');
+    if (!toggle || !panel || !msgs || !form || !input) return;
+
+    let history = [];
+    let greeted = false;
+    let busy = false;
+
+    function addBubble(role, text, i18nKey) {
+      const div = document.createElement('div');
+      div.className = 'ai-msg ' + (role === 'user' ? 'user' : 'bot');
+      if (i18nKey) {
+        div.setAttribute('data-i18n', i18nKey); // follows future language switches too
+        div.textContent = I18N[currentLang][i18nKey];
+      } else {
+        div.textContent = text;
+      }
+      msgs.appendChild(div);
+      msgs.scrollTop = msgs.scrollHeight;
+      return div;
+    }
+
+    function showTyping() {
+      const div = document.createElement('div');
+      div.className = 'ai-msg bot ai-typing';
+      div.innerHTML = '<span></span><span></span><span></span>';
+      msgs.appendChild(div);
+      msgs.scrollTop = msgs.scrollHeight;
+      return div;
+    }
+
+    function openPanel() {
+      panel.hidden = false;
+      toggle.setAttribute('aria-expanded', 'true');
+      if (!greeted) { greeted = true; addBubble('bot', '', 'aiGreeting'); }
+      input.focus();
+    }
+    function closePanel() {
+      panel.hidden = true;
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.focus();
+    }
+
+    async function send(text) {
+      text = (text || '').trim();
+      if (!text || busy) return;
+      busy = true;
+      if (sendBtn) sendBtn.disabled = true;
+      if (chipsWrap) chipsWrap.hidden = true;
+      addBubble('user', text);
+      history.push({ role: 'user', content: text });
+      history = history.slice(-AI_MAX_HISTORY);
+      const typing = showTyping();
+      try {
+        const res = await fetch(AI_PROXY_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            model: 'gpt-4o-mini',
+            messages: [{ role: 'system', content: AI_SYSTEM_PROMPT }].concat(history),
+            max_tokens: 350
+          })
+        });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const data = await res.json();
+        let reply = '';
+        if (data && data.choices && data.choices[0]) {
+          const m = data.choices[0].message;
+          reply = (m && m.content) || data.choices[0].text || '';
+        }
+        if (!reply && data && typeof data.content === 'string') reply = data.content;
+        if (!reply && data && typeof data.reply === 'string') reply = data.reply;
+        if (!reply && data && typeof data.message === 'string') reply = data.message;
+        reply = (reply || '').trim();
+        if (!reply) throw new Error('empty reply');
+        typing.remove();
+        addBubble('bot', reply);
+        history.push({ role: 'assistant', content: reply });
+        history = history.slice(-AI_MAX_HISTORY);
+      } catch (err) {
+        typing.remove();
+        addBubble('bot', '', 'aiError');
+      } finally {
+        busy = false;
+        if (sendBtn) sendBtn.disabled = false;
+      }
+    }
+
+    toggle.addEventListener('click', () => (panel.hidden ? openPanel() : closePanel()));
+    if (closeBtn) closeBtn.addEventListener('click', closePanel);
+    document.addEventListener('keydown', e => { if (e.key === 'Escape' && !panel.hidden) closePanel(); });
+    if (chipsWrap) chipsWrap.querySelectorAll('.ai-chip').forEach(chip => {
+      chip.addEventListener('click', () => send(chip.textContent));
+    });
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      const v = input.value;
+      input.value = '';
+      send(v);
+    });
+
+    // Dev/verify affordance: ?aichat=open auto-opens; ?aichat=demo also sends chip 1 for real.
+    const q = location.search;
+    if (q.indexOf('aichat=open') !== -1 || q.indexOf('aichat=demo') !== -1) {
+      openPanel();
+      if (q.indexOf('aichat=demo') !== -1) {
+        setTimeout(() => send(I18N[currentLang].aiChip1), 600);
+      }
+    }
+  });
+})();
+/* /AI-AVATAR */
