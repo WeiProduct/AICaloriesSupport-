@@ -47,7 +47,7 @@ body {
 
 html { scroll-behavior: smooth; scroll-padding-top: 90px; overflow-x: clip; }
 body { overflow-x: clip; }
-img { display: block; max-width: 100%; }
+img { display: block; max-width: 100%; height: auto; }
 
 a:focus-visible, button:focus-visible, summary:focus-visible {
     outline: 3px solid rgba(25, 169, 116, 0.5);
